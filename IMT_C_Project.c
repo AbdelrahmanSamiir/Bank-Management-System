@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../STD_TYPES.h"
+#include "STD_TYPES.h"
 #include <stdlib.h>
 
 void adminwindow(void);
@@ -32,7 +32,6 @@ typedef struct
 	u8 Password;
 	u8 *AccountStatus;
 }BankAcc;
-
 
 BankAcc c;
 BankAcc arr[100];
