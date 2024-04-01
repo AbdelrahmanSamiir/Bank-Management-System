@@ -66,7 +66,7 @@ void adminwindow(void)
 	u32 adminPassword;
 	printf("Please enter Admin's ID : ");
 	scanf("%d",&adminID);
-	printf("Please enter Admin's ID : ");
+	printf("Please enter Admin's password : ");
 	scanf("%d",&adminPassword);
 	
 	if(AdminsID == adminID && AdminPass == adminPassword)
